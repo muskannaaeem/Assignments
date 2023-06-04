@@ -1,0 +1,103 @@
+
+.nav1{
+    width: 100%;
+    height: 50px;
+    color: black;
+    background: #e7b089;
+    display: flex;
+    justify-content: space-around;
+}
+.nav1 li{
+             display: inline;
+            margin-right: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: large;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       
+       
+    
+}
+
+body{ 
+       background-color: rgba(238, 219, 156, 0.993);
+    background-image: url(image.jpg.png);
+       height: 100vh;
+       width: 100%;
+       background-repeat: no-repeat;
+       background-position: left;
+     
+      margin: 0px;
+     
+}
+a{
+    color: black;
+}
+
+.nav2 li{
+    display: inline;
+   margin-right: 20px;
+
+}
+.nav2{
+    float: right;
+}
+/* .nav2{
+
+    color: black;
+    background-color: rgb(139, 145, 65);
+    
+} */
+
+a{
+    text-decoration: none;
+}
+.nav2{
+    text-decoration-line: none;
+    font-family: fantasy;
+}
+.img{
+    float: right;
+}
+
+button{
+        background-color: rgb(187, 185, 50);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        border: 2px solid rgba(168, 82, 47, 0.986);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer{
+          margin-top: 20px;
+          width: 80%;
+          padding: 10px 10%;
+          background: #dfa178;
+          display: flex;
+}
+.footer div{
+         text-align: center;
+
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h3{
+     font-weight: 200;
+     margin-bottom: 20px;
+     letter-spacing: 5px;
+
+}
+form input{
+    width: 200px;
+    height: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+.social-icons i{
+                font-size: 22px;
+                margin: 10px;
+                cursor: pointer;
+}
